@@ -1,0 +1,30 @@
+.contact-us{
+	font-family: Montserrat-Regular;
+	.contact-us-head{
+		margin: 15px 15px;
+		span{
+			font-size: 14px;
+		}
+		h3{
+			font-size: 32px;
+			font-weight: bold;
+		}
+	}
+}
+.contact-grid{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	.contact-inner{
+		border: 1px solid grey;
+		margin: 0 1em;
+		img{
+			float: left;
+			margin: 10px 10px;
+		}
+		.contact-inner-text-box{
+			padding: 15px 15px;
+			line-height: 200%;
+		}
+	}
+}

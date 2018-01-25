@@ -1,0 +1,32 @@
+.stand-out{
+	background-color: #e7eff1;
+	font-family: Montserrat-Regular;
+}
+.stand-out-head{
+	span{
+		font-size: 14px;
+	}
+	h3{
+		font-size: 32px;
+	}
+}
+.stand-out-grid{
+	margin: 30px 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	.inner{
+		padding: 10px 10px;
+		img{
+			margin: 10px 10px;
+		}
+		.number{
+			color: #16d428;
+
+		}
+		h4{
+			margin:30px 0;
+			font-family: Montserrat-Bold;
+		}
+	}
+}

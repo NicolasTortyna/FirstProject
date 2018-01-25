@@ -1,0 +1,41 @@
+footer{
+	background-color: #262829;
+	font-family: Montserrat-Regular;
+	p{
+		margin: 10px 0;
+	}
+	.footer-grid{
+		padding: 95px 0;
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 2fr 2fr 1fr 1fr;
+		border-bottom: 1px grey solid;
+		.foot-item{
+			margin: 15px 15px;
+		}
+		form{
+			padding: 20px 0;
+			input[type=text]{
+				height: 40px;
+				background-color: #323334;
+				border:none;
+				border-radius: 50px;
+				color: grey;
+				padding-left:10px;
+			}
+			input[type=submit]{
+				color: #fff;
+				background-color: #16d428;
+				height: 40px;
+				border-radius: 50px;
+				border:none;
+				margin-left:-35px;
+				padding:0 15px;
+			}
+		}
+	}
+}
+	.copyright{
+		text-align: center;
+		padding: 25px 0;
+	}

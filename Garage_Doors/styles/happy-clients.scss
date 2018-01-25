@@ -1,0 +1,35 @@
+.happy-clients{
+	margin: 0 auto;
+	background-color: #03b6e7;
+	font-family: Montserrat-Regular;
+	color: #fff;
+	.happy-clients-head{
+		span{
+		font-size: 14px;
+		}
+		h3{
+		font-size: 32px;
+		padding: 15px 0
+		}
+	}
+	.fotorama{
+		.sl-item{
+			img{
+				display: block;
+				border-radius:100px;
+				margin: 20px auto;
+			}
+
+		}
+	}
+	.carousel-button{
+			width: 200px;
+			margin: 15px auto;
+		a{
+			background-color: #16d428;
+			color: #fff;
+			padding: 10px 10px;
+			border-radius: 50px;
+		}
+	}
+}
